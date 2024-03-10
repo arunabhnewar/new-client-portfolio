@@ -11,11 +11,19 @@ export default function Header() {
 
   return (
     <>
-      <header className=' '>
+      <header className={isHomePage ? "bg-white" : "bg-green"}>
         <div className='container mx-auto flex justify-between  p-5 items-center  '>
-          <a className='flex title-font font-medium items-center text-gray-900 '>
+          <a className='flex title-font font-medium items-center  '>
             <img src={logo} alt='logo' className='w-12 h-12 rounded-full' />
-            <span className='ml-3 font-inter font-bold text-4xl '>AN</span>
+            {isHomePage ? (
+              <span className='ml-3 font-inter font-700 text-4xl text-black '>
+                AN
+              </span>
+            ) : (
+              <span className='ml-3 font-inter font-700 text-4xl text-white '>
+                AN
+              </span>
+            )}
           </a>
           <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center '>
             {isHomePage ? (
@@ -38,19 +46,20 @@ export default function Header() {
           </nav>
           <Link to='contact' className='w-[147px] h-[50px] hidden sm:block '>
             {isHomePage ? (
-              <button className='flex justify-center items-center  w-full h-full bg-[#025A4E] border-0  focus:outline-none  rounded-full text-white text-lg font-medium font-inter gap-2 '>
+              <button className='flex justify-center items-center  w-full h-full bg-[#025A4E] border-0  focus:outline-none  rounded-full text-white text-lg font-500 font-inter gap-2 '>
                 Let’s talk
                 <img src={arrow} alt='' />
               </button>
             ) : (
-              <button className='flex justify-center items-center  w-full h-full bg-white border-0  focus:outline-none  rounded-full text-black text-lg font-medium font-inter gap-2 '>
+              <button className='flex justify-center items-center  w-full h-full bg-white border-0  focus:outline-none  rounded-full text-black text-lg font-500 font-inter gap-2 '>
                 Let’s talk
                 <img src={arrowBlack} alt='' />
               </button>
             )}
           </Link>
         </div>
-        <div className='container mx-auto border-b'></div>
+
+        <hr className='container mx-auto md:w-11/12 sm:w-full' />
       </header>
     </>
   );
