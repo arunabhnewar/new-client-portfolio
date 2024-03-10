@@ -1,0 +1,20 @@
+/* ============== Media Query ================= */
+/* 2xl Screen Size */
+@media (min-width: 1536px) {
+}
+
+/* xl Screen Size */
+@media (min-width: 1280px) {
+}
+
+/* lg Screen Size */
+@media (min-width: 1024px) {
+}
+
+/* md Screen Size */
+@media (min-width: 768px) {
+}
+
+/* sm Screen Size */
+@media (min-width: 640px) {
+}
