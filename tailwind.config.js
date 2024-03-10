@@ -32,6 +32,9 @@ export default {
         bred: "#FFE5E5", // light red bg color
         dark: "#28282A", // dark color for logo
       },
+      maxWidth: {
+        '1000': '1000px',
+      },
     },
   },
   plugins: [],

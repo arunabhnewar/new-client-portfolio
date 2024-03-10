@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
       <header className={isHomePage ? "bg-white" : "bg-green"}>
-        <div className='container mx-auto flex justify-between  p-5 items-center  '>
+        <div className='container max-w-1000 w-full mx-auto flex justify-between  p-5 items-center'>
           {/* Header left content start */}
           <a className='flex title-font font-medium items-center  '>
             <img src={logo} alt='logo' className='w-12 h-12 rounded-full' />
@@ -67,7 +67,7 @@ export default function Header() {
           {/* Header right content end */}
         </div>
 
-        <hr className='container mx-auto md:w-11/12 sm:w-full' />
+        <hr className='container max-w-[955px] w-full mx-auto md:w-11/12 sm:w-full ' />
       </header>
     </>
   );

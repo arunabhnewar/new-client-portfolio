@@ -4,7 +4,7 @@ export default function Menu() {
   return (
     <>
       <div className='bg-green w-full min-h-[100vh] '>
-        <div className='container mx-auto pt-24 px-6'>
+        <div className='container max-w-1000 w-full mx-auto pt-24 px-6'>
           {/* Project content start */}
           <div className='flex'>
             <sup className='font-400 text-base xl:text-[32px] lg:text-2xl md:text-xl  leading-9 pe-4 font-inter text-white '>

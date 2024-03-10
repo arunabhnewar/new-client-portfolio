@@ -6,7 +6,7 @@ export default function SecondHeader() {
   return (
     <>
       <header>
-        <div className='container mx-auto flex justify-between  p-5 items-center  '>
+        <div className='container max-w-1000 w-full mx-auto flex justify-between  p-5 items-center  '>
           {/* Header left content start */}
           <a className='flex title-font font-medium items-center  '>
             <h1 className='font-700 font-syne text-2xl text-dark'>Akshit</h1>
