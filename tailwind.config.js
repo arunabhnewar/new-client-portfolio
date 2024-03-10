@@ -23,6 +23,14 @@ export default {
         "800": 800,
         "900": 900,
       },
+      colors: {
+        green: '#025A4E', //main green color
+        lgreen: '#05AA89', // light green
+        yellow: '#BDED3B', //yellow
+        bblue: '#F1F4F7', // light blue bg color
+        bpink: '#EADAFF', // light pink bg color
+        bred: '#FFE5E5', // light red bg color
+      },
     },
   },
   plugins: [],
