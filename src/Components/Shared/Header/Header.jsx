@@ -13,6 +13,7 @@ export default function Header() {
     <>
       <header className={isHomePage ? "bg-white" : "bg-green"}>
         <div className='container mx-auto flex justify-between  p-5 items-center  '>
+          {/* Header left content start */}
           <a className='flex title-font font-medium items-center  '>
             <img src={logo} alt='logo' className='w-12 h-12 rounded-full' />
             {isHomePage ? (
@@ -25,6 +26,9 @@ export default function Header() {
               </span>
             )}
           </a>
+          {/* Header left content end */}
+
+          {/* Header mid content start */}
           <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center '>
             {isHomePage ? (
               <Link to='menu'>
@@ -44,6 +48,9 @@ export default function Header() {
               </Link>
             )}
           </nav>
+          {/* Header mid content end */}
+
+          {/* Header right content start */}
           <Link to='contact' className='w-[147px] h-[50px] hidden sm:block '>
             {isHomePage ? (
               <button className='flex justify-center items-center  w-full h-full bg-[#025A4E] border-0  focus:outline-none  rounded-full text-white text-lg font-500 font-inter gap-2 '>
@@ -57,6 +64,7 @@ export default function Header() {
               </button>
             )}
           </Link>
+          {/* Header right content end */}
         </div>
 
         <hr className='container mx-auto md:w-11/12 sm:w-full' />
