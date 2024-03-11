@@ -28,7 +28,7 @@ export default function AboutMe() {
         </div>
         {/* About Hero Section start */}
 
-        {/* Experience Section start */}
+        {/* Work Experience Section start */}
         <div className='container max-w-1000 w-full mx-auto mt-[176px] px-6'>
           <h1 className='font-heading font-700 text-[84px] text-green tracking-normal '>
             Work Experience
@@ -38,6 +38,40 @@ export default function AboutMe() {
             on the Google Play Store, that demonstrate my expertise in utilising
             a wide range of tools and technologies.
           </p>
+        </div>
+        {/* Work Experience Section end */}
+
+        {/* Experience Section start */}
+        <div className='container max-w-1000 w-full mx-auto mt-[166px] px-6'>
+          {/* Android developer experience */}
+          <div>
+            <div className='flex justify-between items-center'>
+              <h4 className='font-heading font-500 text-black text-5xl  '>
+                Android Developer
+              </h4>
+
+              <p className='text-right text-green font-400 text-xl '>
+                Jaguar LandRover <br /> 2023 - Present
+              </p>
+            </div>
+
+            <hr className='mt-7 border-black' />
+          </div>
+
+          {/* Contract Android developer experience */}
+          <div className='mt-7'>
+            <div className='flex justify-between items-center'>
+              <h4 className='font-heading font-500 text-black text-5xl  '>
+                Contract Android Developer
+              </h4>
+
+              <p className='text-right text-green font-400 text-xl '>
+                IDS Logic <br /> Sept - Dec 2022
+              </p>
+            </div>
+
+            <hr className='mt-7 border-black' />
+          </div>
         </div>
         {/* Experience Section end */}
       </div>
