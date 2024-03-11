@@ -13,7 +13,10 @@ export default function Home() {
         Helvetica Neue
       </h1>
       <h1 className='font-product text-5xl font-400  bg-bred'>Heading Now</h1>
-      <h1 className='font-heading text-5xl font-400  bg-green'>UnExpectedly</h1>
+      <h1 className='font-heading text-5xl font-400 bg-bpink text-green'><span className="mix-blend-difference">
+    Hello world
+  </span></h1>
+      
     </div>
   );
 }
