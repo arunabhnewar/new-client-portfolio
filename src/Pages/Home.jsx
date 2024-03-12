@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <PageTitle title='Home' />
-      <div className='bg-white w-full min-h-[100vh] '>
+      <div className='bg-white w-full min-h-[100vh] fade-in'>
         {/* Home Hero Section start */}
         <div className='container max-w-1000 w-full mx-auto mt-[76px] px-4'>
           {/* banner top part for title start */}

@@ -7,7 +7,7 @@ export default function AboutMe() {
     <>
       <PageTitle title='About' />
 
-      <div className='bg-white w-full min-h-[100vh] '>
+      <div className='bg-white w-full min-h-[100vh] fade-in'>
         {/* About Hero Section start */}
         <div className='container max-w-1000 w-full mx-auto mt-[76px] px-6'>
           <div className='max-w-[800px] mx-auto'>

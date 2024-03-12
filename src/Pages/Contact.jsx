@@ -8,7 +8,7 @@ export default function Contact() {
     <>
       <PageTitle title='Contact' />
 
-      <div className='bg-white w-full  '>
+      <div className='bg-white w-full  fade-in'>
         {/* Contact hero section start */}
         <div className='container max-w-1000 w-full mx-auto mt-[110px] px-6 pb-20'>
           <div className='relative'>
@@ -35,7 +35,7 @@ export default function Contact() {
               </p>
 
               <div className='max-w-[1000px] h-[192px] w-full mt-[22px]'>
-                <h3 className='tracking-[2.62px] font-product font-400 md:leading-[63.6px] sm:leading-10 leading-8 uppercase  md:text-4xl sm:text-3xl text-2xl pl-1 text-green'>
+                <h3 className='tracking-[2.62px] font-product font-400 md:leading-[63.6px] sm:leading-10 leading-6 uppercase  md:text-4xl sm:text-3xl text-lg pl-1 text-green'>
                   I'm open for freelance projects, feel free to contact me to
                   see how we can collaborate.
                 </h3>
