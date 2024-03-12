@@ -7,7 +7,7 @@ export default function Projects() {
     <div>
       <PageTitle title='Project' />
       <div className='bg-white w-full min-h-[100vh] '>
-        {/* Home Hero Section start */}
+        {/* Project Hero Section start */}
         <div className='container max-w-1000 w-full mx-auto mt-[76px] px-4'>
           {/* banner top part for title start */}
           <h1 className='text-7xl sm:text-9xl md:text-[200px] text-green font-helvetica font-700	tracking-wide md:tracking-[20px] text-center'>
