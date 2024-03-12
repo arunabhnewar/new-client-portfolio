@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
+import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
-import bigArrow from "../assets/icons/bigArrow.svg";
 import authorMid from "../assets/images/authorMid.webp";
 
 export default function AboutMe() {
@@ -16,14 +15,14 @@ export default function AboutMe() {
               Based <br /> Manchester, UK.
             </h5>
 
-            <div className='flex flex-row  items-end mt-[16px] gap-x-8'>
-              <div className='basis-4/6 text-right'>
-                <h3 className='uppercase font-heading font-700 text-6xl text-green'>
+            <div className='flex flex-row  items-end mt-[16px] gap-x-2 sm:gap-x-4 md:gap-x-6 lg:gap-x-8'>
+              <div className='basis-2/4  sm:basis-4/6 text-right'>
+                <h3 className='uppercase font-heading font-700 text-2xl sm:text-4xl lg:text-6xl md:text-5xl text-green'>
                   I’m an <br /> Android <br /> Developer{" "}
                 </h3>
               </div>
-              <div className='basis-2/6 w-[246px]  ml-auto '>
-                <img src={authorMid} alt='' className='w-full ' />
+              <div className='basis-2/4 sm:basis-2/6 w-[200px] md:w-[246px]   ml-auto '>
+                <img src={authorMid} alt='' className='w-full' />
               </div>
             </div>
           </div>
@@ -32,10 +31,10 @@ export default function AboutMe() {
 
         {/* Work Experience Section start */}
         <div className='container max-w-1000 w-full mx-auto mt-[176px] px-6'>
-          <h1 className='font-heading font-700 text-[84px]  text-green tracking-normal '>
+          <h1 className='font-heading font-700  text-5xl sm:text-6xl md:text-[84px]  text-green tracking-normal '>
             Work Experience
           </h1>
-          <p className=' text-dark  text-3xl  font-400 tracking-wide  w-[900px]  leading-[34px] '>
+          <p className=' text-dark  lg:text-3xl md:text-2xl text-lg  font-400 tracking-wide  lg:w-[900px] md:w-[750px] leading-[24px]  md:leading-[34px] pt-3 sm:pt-0 '>
             My portfolio showcases several professional Android apps available
             on the Google Play Store, that demonstrate my expertise in utilising
             a wide range of tools and technologies.
@@ -47,12 +46,12 @@ export default function AboutMe() {
         <div className='container max-w-1000 w-full mx-auto mt-[166px] px-6'>
           {/* Android developer experience start */}
           <div>
-            <div className='flex justify-between items-center'>
-              <h4 className='font-heading font-500 text-black text-5xl  '>
+            <div className='flex flex-col sm:flex-row  '>
+              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   text-4xl  '>
                 Android Developer
               </h4>
 
-              <p className='text-right text-green font-400 text-xl '>
+              <p className='text-left sm:text-right text-green font-400 md:text-lg lg:text-xl w-full  sm:w-1/4 flex-grow pt-5 sm:pt-0'>
                 Jaguar LandRover <br /> 2023 - Present
               </p>
             </div>
@@ -63,12 +62,12 @@ export default function AboutMe() {
 
           {/* Contract Android developer experience start */}
           <div className='mt-7'>
-            <div className='flex justify-between items-center'>
-              <h4 className='font-heading font-500 text-black text-5xl  '>
+            <div className='flex flex-col sm:flex-row '>
+              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   text-4xl  '>
                 Contract Android Developer
               </h4>
 
-              <p className='text-right text-green font-400 text-xl '>
+              <p className='text-left sm:text-right text-green font-400 md:text-lg lg:text-xl w-full  sm:w-1/4 flex-grow pt-5 sm:pt-0 '>
                 IDS Logic <br /> Sept - Dec 2022
               </p>
             </div>
@@ -79,12 +78,12 @@ export default function AboutMe() {
 
           {/* Freelance Developer experience start */}
           <div className='mt-7'>
-            <div className='flex justify-between items-center'>
-              <h4 className='font-heading font-500 text-black text-5xl  '>
+            <div className='flex flex-col sm:flex-row'>
+              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   text-4xl  '>
                 Freelance Developer
               </h4>
 
-              <p className='text-right text-green font-400 text-xl '>
+              <p className='text-left sm:text-right text-green font-400 md:text-lg lg:text-xl w-full  sm:w-1/4 flex-grow pt-5 sm:pt-0 '>
                 Freelance <br /> Nov 2021 - Sept 2022
               </p>
             </div>
@@ -95,77 +94,7 @@ export default function AboutMe() {
         </div>
         {/* Experience Section end */}
 
-        {/* Lets Talk section start */}
-        <div className='container max-w-1000 w-full mx-auto mt-[250px] px-6'>
-          <Link to='mailto:akshit6302@gmail.com'>
-            <p className='font-400 font-product leading-8 text-2xl tracking-wide text-green  '>
-              akshitemail@mail.com
-            </p>
-          </Link>
-
-          <div className='flex justify-between items-end'>
-            <h1 className='uppercase font-heading font-400 text-dark text-8xl  '>
-              Let’s Talk
-            </h1>
-            <div className='w-10 h-10   '>
-              <img src={bigArrow} alt='' className='w-full h-full' />
-            </div>
-          </div>
-        </div>
-        {/* Lets Talk section end */}
-
-        {/* Footer Start */}
-        <div className='container max-w-1000 w-full mx-auto mt-[124px] px-6 pb-10'>
-          <div className='flex justify-between items-center'>
-            {/* email content start */}
-            <div className='font-helvetica font-400 text-lg leading-[21.47px] text-dark '>
-              <p>Hey get in touch</p>
-              <p>akshit6302@gmail.com</p>
-            </div>
-            {/* email content start */}
-
-            {/* social media content start */}
-            <div>
-              <p className='font-700 font-helvetica text-lg leading-[21.47px] text-dark'>
-                <Link
-                  to='https://www.instagram.com/ak__it/?hl=en'
-                  target='_blank'
-                  className='underline'>
-                  Instagram
-                </Link>
-                ,{" "}
-                <Link
-                  to='https://www.linkedin.com/in/akshit-nahata-06948a13b/'
-                  target='_blank'
-                  className='underline'>
-                  LinkedIn
-                </Link>
-              </p>
-
-              <p className='font-700 font-helvetica text-lg leading-[21.47px] text-dark'>
-                <Link
-                  to='https://www.buymeacoffee.com/akshit6302'
-                  target='_blank'
-                  className='underline'>
-                  BuyCoffee
-                </Link>
-              </p>
-            </div>
-            {/* social media content end */}
-
-            {/* copyright content start */}
-            <div className='text-right font-helvetica font-400 text-lg leading-[21.47px] text-dark'>
-              <p>Designed by </p>
-              <p>
-                <Link to='https://www.figma.com/@ericandtheweb' target='_blank'>
-                  © ericandtheweb
-                </Link>
-              </p>
-            </div>
-            {/* copyright content end */}
-          </div>
-        </div>
-        {/* Footer end */}
+        <Footer />
       </div>
     </>
   );

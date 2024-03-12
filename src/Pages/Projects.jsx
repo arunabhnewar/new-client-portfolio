@@ -1,3 +1,4 @@
+import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorMid from "../assets/images/authorMid.webp";
 import projectIcon from "../assets/images/projecticon1.png";
@@ -84,6 +85,8 @@ export default function Projects() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
