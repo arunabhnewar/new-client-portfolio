@@ -31,6 +31,7 @@ export default {
         bpink: "#EADAFF", // light pink bg color
         bred: "#FFE5E5", // light red bg color
         dark: "#28282A", // dark color for logo
+        dblue: "#ABADDD", //  dark blue color for logo
       },
       maxWidth: {
         '1000': '1000px',
