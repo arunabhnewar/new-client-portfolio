@@ -6,11 +6,11 @@ import authorBig from "../assets/images/authorBig.webp";
 export default function Contact() {
   return (
     <>
-      <PageTitle title='Contact' />
+      <PageTitle title="Contact" />
 
-      <div className='bg-white w-full  fade-in'>
+      <div className="bg-white w-full  fade-in">
         {/* Contact hero section start */}
-        <div className='container max-w-1000 w-full mx-auto mt-[110px] px-6 pb-20'>
+        {/* <div className='container max-w-1000 w-full mx-auto mt-[110px] px-6 pb-20'>
           <div className='relative'>
             <div className='grid  grid-cols-3 grid-rows-1 items-stretch'>
               <div className='col-span-2 mx-auto'>
@@ -28,7 +28,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Hero text */}
+          
             <div className='absolute lg:top-[18%] top-[25%] z-10'>
               <p className='font-heading font-400 lg:text-[27px] md:text-2xl  sm:text-lg text-sm text-black pl-1'>
                 akshitemail@mail.com
@@ -41,7 +41,29 @@ export default function Contact() {
                 </h3>
               </div>
             </div>
+            <h3 className="mix-blend-difference text-[#FDA5B1] text-9xl">I'm open for freelance projects, feel free to contact me to
+                  see how we can collaborate.</h3>
           </div>
+        </div> */}
+        <div className="container max-w-1000 w-full mx-auto mt-[110px] px-2 pb-20">
+          <div className="relative w-[380px]">
+            <p className="font-heading font-400 lg:text-[27px] md:text-2xl  sm:text-lg text-sm text-black pl-1">
+              akshitemail@mail.com
+            </p>
+            <p className=" bg-[#D7D7D5] w-[120px] h-[120px] flex justify-center items-center rounded-full border-2 mix-blend-difference text-[#FDA5B1]  absolute right-[4px] top-[0px]"><Link
+              to="mailto:akshit6302@gmail.com"
+              className="font-product font-400 text-white md:text-base sm:text-sm text-xs text-center"
+            >
+             <span className="text-black mix-blend-passthrough"> Copy <br /> Email</span>
+            </Link></p>
+            
+          </div>
+          <div className='max-w-[1000px] h-[192px] w-full mt-[22px]'>
+                <h3 className='mt-12  font-product font-400 md:leading-[63.6px] sm:leading-10 leading-6 uppercase  md:text-[42px]	 sm:text-3xl text-lg pl-1 text-green'>
+                  I'm open for freelance projects, feel free to contact me to
+                  see how we can collaborate.
+                </h3>
+              </div>
         </div>
         {/* Contact hero section end */}
         <Footer />
