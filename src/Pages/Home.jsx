@@ -103,7 +103,7 @@ export default function Home() {
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow'>
                 <div className='flex items-center sm:flex-row sm:justify-end gap-6 mb-6'>
-                  <p className='text-base bg-bblue rounded-2xl px-3 py-3'>
+                  <p className='text-base bg-bblue rounded-2xl px-3 py-3 md:px-8'>
                     2023 - Present
                   </p>
                   <p className='text-base'>Jaguar LandRover</p>
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow mb-6'>
                 <div className='flex items-center sm:flex-row gap-6 sm:justify-end'>
-                  <p className='text-base bg-bblue rounded-2xl px-3 py-3'>
+                  <p className='text-base bg-bblue rounded-2xl px-3 py-3 md:px-8'>
                     2023 - Present
                   </p>
                   <p className='text-base'>Jaguar LandRover</p>
@@ -131,7 +131,7 @@ export default function Home() {
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow'>
                 <div className='flex items-center sm:flex-row gap-6 sm:justify-end'>
-                  <p className='text-base bg-bblue rounded-2xl px-3 py-3'>
+                  <p className='text-base bg-bblue rounded-2xl px-3 py-3 md:px-8'>
                     2023 - Present
                   </p>
                   <p className='text-base'>Jaguar LandRover</p>
