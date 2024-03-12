@@ -1,3 +1,4 @@
+import HomeFooter from "../Components/Shared/HomeFooter/HomeFooter";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import bannerImg from "../assets/images/homeauthor.png";
 import projectThree from "../assets/images/homeprojectlevel.png";
@@ -140,6 +141,8 @@ export default function Home() {
             </div>
           </div>
           {/* Experience Section end */}
+
+          <HomeFooter />
         </div>
       </div>
     </div>

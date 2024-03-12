@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorBig from "../assets/images/authorBig.webp";
-import emailImg from "../assets/images/email.png";
 
 export default function Contact() {
   return (
@@ -45,10 +44,6 @@ export default function Contact() {
           </div>
         </div>
 
-
-        <div className="container">
-          <img src={emailImg} alt="" />
-        </div>
         {/* Contact hero section end */}
         <Footer />
       </div>
