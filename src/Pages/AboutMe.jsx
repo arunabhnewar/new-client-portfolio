@@ -47,7 +47,7 @@ export default function AboutMe() {
           {/* Android developer experience start */}
           <div>
             <div className='flex flex-col sm:flex-row  '>
-              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   text-4xl  '>
+              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   sm:text-4xl text-3xl  '>
                 Android Developer
               </h4>
 
@@ -63,7 +63,7 @@ export default function AboutMe() {
           {/* Contract Android developer experience start */}
           <div className='mt-7'>
             <div className='flex flex-col sm:flex-row '>
-              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   text-4xl  '>
+              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   sm:text-4xl text-3xl   '>
                 Contract Android Developer
               </h4>
 
@@ -79,7 +79,7 @@ export default function AboutMe() {
           {/* Freelance Developer experience start */}
           <div className='mt-7'>
             <div className='flex flex-col sm:flex-row'>
-              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   text-4xl  '>
+              <h4 className='w-full l sm:w-3/4 font-heading font-500 text-black md:text-5xl   sm:text-4xl text-3xl   '>
                 Freelance Developer
               </h4>
 
