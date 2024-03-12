@@ -4,7 +4,7 @@ import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 export default function Menu() {
   return (
     <>
-    <PageTitle title="Menu" />
+      <PageTitle title='Menu' />
       <div className='bg-green w-full min-h-[100vh] '>
         <div className='container max-w-1000 w-full mx-auto pt-24 px-6'>
           {/* Project content start */}

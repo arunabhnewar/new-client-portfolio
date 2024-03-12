@@ -14,28 +14,28 @@ export default function Contact() {
           <div className='relative'>
             <div className='grid  grid-cols-3 grid-rows-1 items-stretch'>
               <div className='col-span-2 mx-auto'>
-                <div className='bg-dark w-[100px] h-[100px] flex justify-center items-center rounded-full border-2 border-black mt-16 '>
+                <div className='bg-dark lg:w-[100px] lg:h-[100px] md:w-[90px] md:h-[90px] sm:w-[80px] sm:h-[80px] w-[60px] h-[60px] flex justify-center items-center rounded-full border-2 border-black lg:mt-16  mt-0'>
                   <Link
                     to='mailto:akshit6302@gmail.com'
-                    className='font-product font-400 text-white text-base text-center'>
+                    className='font-product font-400 text-white md:text-base sm:text-sm text-xs text-center'>
                     Copy <br /> Email
                   </Link>
                 </div>
               </div>
 
-              <div className='rotate-[10deg] '>
+              <div className='sm:rotate-[10deg]'>
                 <img src={authorBig} alt='' />
               </div>
             </div>
 
             {/* Hero text */}
-            <div className='absolute top-[15%] z-10'>
-              <p className='font-heading font-400 text-[27px] text-black pl-1'>
+            <div className='absolute lg:top-[18%] top-[25%] z-10'>
+              <p className='font-heading font-400 lg:text-[27px] md:text-2xl  sm:text-lg text-sm text-black pl-1'>
                 akshitemail@mail.com
               </p>
 
               <div className='max-w-[1000px] h-[192px] w-full mt-[22px]'>
-                <h3 className='tracking-[2.62px] font-product font-400 leading-[63.6px] uppercase  text-[38px] pl-1 text-green'>
+                <h3 className='tracking-[2.62px] font-product font-400 md:leading-[63.6px] sm:leading-10 leading-8 uppercase  md:text-4xl sm:text-3xl text-2xl pl-1 text-green'>
                   I'm open for freelance projects, feel free to contact me to
                   see how we can collaborate.
                 </h3>
