@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'xsm': '500px', // Add the new breakpoint
+      },
       fontFamily: {
         inter: ["inter", "sans-serif"],
         antonio: ["Antonio", "sans-serif"],

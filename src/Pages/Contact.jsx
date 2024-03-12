@@ -10,60 +10,35 @@ export default function Contact() {
 
       <div className="bg-white w-full  fade-in">
         {/* Contact hero section start */}
-        {/* <div className='container max-w-1000 w-full mx-auto mt-[110px] px-6 pb-20'>
-          <div className='relative'>
-            <div className='grid grid-cols-2  sm:grid-cols-3 grid-rows-1 items-stretch'>
-              <div className='sm:col-span-2 mx-auto'>
-                <div className='bg-dark lg:w-[100px] lg:h-[100px] md:w-[90px] md:h-[90px] sm:w-[80px] sm:h-[80px] w-[60px] h-[60px] flex justify-center items-center rounded-full border-2 border-black lg:mt-16  mt-0'>
-                  <Link
-                    to='mailto:akshit6302@gmail.com'
-                    className='font-product font-400 text-white md:text-base sm:text-sm text-xs text-center'>
-                    Copy <br /> Email
-                  </Link>
-                </div>
-              </div>
 
-              <div className='sm:rotate-[10deg]'>
-                <img src={authorBig} alt='' />
-              </div>
-            </div>
-
-          
-            <div className='absolute lg:top-[18%] top-[25%] z-10'>
-              <p className='font-heading font-400 lg:text-[27px] md:text-2xl  sm:text-lg text-xs text-black pl-1 underline'>
-                akshitemail@mail.com
-              </p>
-
-              <div className='max-w-[148px] sm:max-w-[1000px] h-[192px] w-full mt-[22px]'>
-                <h3 className='sm:tracking-[2.62px] font-product font-400 md:leading-[63.6px] sm:leading-10 leading-2 uppercase  md:text-4xl sm:text-3xl text-sm pl-1 text-green'>
-                  I'm open for freelance projects, feel free to contact me to
-                  see how we can collaborate.
-                </h3>
-              </div>
-            </div>
-            <h3 className="mix-blend-difference text-[#FDA5B1] text-9xl">I'm open for freelance projects, feel free to contact me to
-                  see how we can collaborate.</h3>
-          </div>
-        </div> */}
-        <div className="container max-w-1000 w-full mx-auto mt-[110px] px-2 pb-20">
+        <div className="container max-w-1000 w-full mx-auto mt-[160px] sm:mt-[210px] px-2 pb-20">
           <div className="relative w-[380px]">
-            <p className="font-heading font-400 lg:text-[27px] md:text-2xl  sm:text-lg text-sm text-black pl-1">
+            <p className="font-heading font-400 text-[13px] lg:text-[32px] md:text-[32px]  sm:text-[24px] text-black pl-1">
               akshitemail@mail.com
             </p>
-            <p className=" bg-[#D7D7D5] w-[120px] h-[120px] flex justify-center items-center rounded-full border-2 mix-blend-difference text-[#FDA5B1]  absolute right-[4px] top-[0px]"><Link
-              to="mailto:akshit6302@gmail.com"
-              className="font-product font-400 text-white md:text-base sm:text-sm text-xs text-center"
-            >
-             <span className="text-black mix-blend-passthrough"> Copy <br /> Email</span>
-            </Link></p>
-            
+            <p className=" bg-[#D7D7D5] w-[98px] h-[98px] xsm:w-[120px] xsm:h-[120px] flex justify-center items-center rounded-full border-2 mix-blend-difference text-[#FDA5B1]  absolute right-[240px] xsm:right-[213px] md:right-[-46px] sm:right-[29px] xsm:right-[156px] xsm:top-[0px]">
+              <Link
+                to="mailto:akshit6302@gmail.com"
+                className="font-product font-400 text-white md:text-base sm:text-sm text-xs text-center"
+              >
+                <span className="text-black mix-blend-passthrough">
+                  {" "}
+                  Copy <br /> Email
+                </span>
+              </Link>
+            </p>
           </div>
-          <div className='max-w-[1000px] h-[192px] w-full mt-[22px]'>
-                <h3 className='mt-12  font-product font-400 md:leading-[63.6px] sm:leading-10 leading-6 uppercase  md:text-[42px]	 sm:text-3xl text-lg pl-1 text-green'>
-                  I'm open for freelance projects, feel free to contact me to
-                  see how we can collaborate.
-                </h3>
+          <div className="max-w-[1000px] h-[192px] w-full mt-[22px] ">
+            <div className="flex justify-end">
+              <div className="max-w-[130px] lg:max-w-[343px] md:max-w-[250px] sm:max-w-[150px] xsm:max-w-[140px] rotate-[10deg] mt-[-92px] sm:mt-[-103px] xsm:mt-[-70px] md:mt-[-164px] translate-x-[-76px]">
+                <img className="w-full" src={authorBig} alt="" />
               </div>
+            </div>
+            <h3 className="sm:tracking-[1.2px] mt-[-78px] md:mt-[-258px] sm:mt-[-133px] xsm:mt-[-135px]   font-product font-400 md:leading-[63.6px] sm:leading-10 xsm:leading-[1.3] uppercase  md:text-[42px]	 sm:text-3xl text-lg pl-1 text-[#FDA5B1] mix-blend-difference">
+              I'm open for projects , feel free to contact me to see how we can
+              collaborate
+            </h3>
+          </div>
         </div>
 
         {/* Contact hero section end */}
