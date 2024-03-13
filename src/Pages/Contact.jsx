@@ -1,8 +1,17 @@
+/**
+ * Contact component for displaying contact information and hero section.
+ * @module Contact
+ * @returns {JSX.Element} Contact component JSX
+ */
 import { Link } from "react-router-dom";
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorBig from "../assets/images/authorBig.webp";
 
+/**
+ * Contact component function
+ * @returns {JSX.Element} JSX for Contact component
+ */
 export default function Contact() {
   return (
     <>
@@ -29,7 +38,7 @@ export default function Contact() {
           </div>
           <div className='max-w-[1000px] h-[192px] w-full mt-[22px] '>
             <div className='flex justify-end'>
-              <div className='max-w-[130px] lg:max-w-[343px] md:max-w-[250px] sm:max-w-[150px] xsm:max-w-[140px] rotate-[10deg] mt-[-92px] sm:mt-[-103px] xsm:mt-[-70px] md:mt-[-164px] translate-x-[-76px]'>
+              <div className='max-w-[130px] lg:max-w-[343px] md:max-w-[250px] sm:max-w-[150px] xsm:max-w-[140px] rotate-[10deg] mt-[-92px] sm:mt-[-103px] xsm:mt-[-70px] md:mt-[-164px] translate-x-[-76px] pl-[7px] sm:pl-0 '>
                 <img className='w-full' src={authorBig} alt='' />
               </div>
             </div>

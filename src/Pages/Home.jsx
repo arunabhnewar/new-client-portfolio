@@ -1,10 +1,19 @@
+/**
+ * Home component for displaying the home page content.
+ * @module Home
+ * @returns {JSX.Element} Home component JSX
+ */
 import HomeFooter from "../Components/Shared/HomeFooter/HomeFooter";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
-import bannerImg from "../assets/images/homeauthor.png";
+import bannerImg from "../assets/images/homeauthor.webp";
 import projectThree from "../assets/images/homeprojectlevel.png";
 import projectOne from "../assets/images/homeprojecttruth.png";
 import projectTwo from "../assets/images/homeprojectunexpectedly.png";
 
+/**
+ * Home component function
+ * @returns {JSX.Element} JSX for Home component
+ */
 export default function Home() {
   return (
     <div>
@@ -15,16 +24,21 @@ export default function Home() {
           {/* banner top part for title start */}
           <div className='flex flex-nowrap items-center justify-center gap-3 px-4 pt-16 pb-10 sm:pt-16 sm:pb-12'>
             <h1 className='text-4xl font-inter font-900 text-black flex flex-col sm:flex-row sm:items-center sm:gap-3 sm:text-6xl md:text-7xl lg:text-8xl'>
-              <span>Akshit</span>{" "}
-              <span>
+              <span>Akshit</span>
+              {/* Large screen Sticker Image start*/}
+              <span className='bg-[#C7C7C7] rounded-full'>
                 <img className='hidden sm:block' src={bannerImg} alt='' />
               </span>{" "}
+              {/* Large screen Sticker Image end*/}
               <span>Nahata</span>
             </h1>
-            <div className='min-w-[163px] sm:hidden'>
-              {" "}
+
+            {/*mobile screen Sticker Image start*/}
+            <div className='min-w-[163px] sm:hidden bg-[#C7C7C7] rounded-full'>
               <img src={bannerImg} className='w-full ' alt='' />
             </div>
+
+            {/*mobile screen Sticker Image end*/}
           </div>
           {/* banner top part for title end*/}
 
@@ -98,44 +112,50 @@ export default function Home() {
             <h2 className='font-inter font-800 text-5xl sm:text-[80px] text-green mb-16 '>
               Experience
             </h2>
-            <div className='flex flex-col sm:flex-row   border-b border-black'>
-              <div className='w-full font-inter font-800 text-3xl mb-8 sm:w-full md:w-1/3 '>
-                Android Engineer
-              </div>
-              <div className='w-full sm:w-full md:w-1/2 flex-grow'>
-                <div className='flex items-center sm:flex-row sm:justify-end gap-6 mb-6'>
-                  <p className='text-base bg-bblue rounded-2xl px-3 py-3 md:px-8'>
-                    2023 - Present
-                  </p>
-                  <p className='text-base'>Jaguar LandRover</p>
-                </div>
-              </div>
-            </div>
 
-            <div className='flex flex-col sm:flex-row  border-b border-black mt-6'>
-              <div className='w-full font-inter font-800 text-3xl mb-8 sm:w-full md:w-1/3 '>
+            <div className='flex flex-col  sm:flex-row   border-b border-black'>
+              <div className='w-full font-inter font-600 text-[28px] md:text-[36px] mb-8 sm:w-full md:w-1/2 '>
                 Android Engineer
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow mb-6'>
-                <div className='flex items-center sm:flex-row gap-6 sm:justify-end'>
-                  <p className='text-base bg-bblue rounded-2xl px-3 py-3 md:px-8'>
+                <div className='flex'>
+                  <p className='min-w-unset sm:min-w-[200px] md:min-w-[220px] lg:min-w-[233px] text-center text-[18px] md:h-[54px] lg:text-2xl bg-bblue rounded-2xl px-3 py-3 md:px-8'>
                     2023 - Present
                   </p>
-                  <p className='text-base'>Jaguar LandRover</p>
+                  <p className='min-w-unset sm:min-w-[210px] text-center text-[18px] lg:text-2xl  rounded-2xl px-3 py-3 md:px-8'>
+                    Jaguar LandRover
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='flex flex-col items-center sm:flex-row  border-b border-black mt-6'>
+              <div className='w-full font-inter font-600 text-[28px] md:text-[36px] mb-8 sm:w-full md:w-1/2 '>
+                Contract Android Developer
+              </div>
+              <div className='w-full sm:w-full md:w-1/2 flex-grow mb-6'>
+                <div className='flex'>
+                  <p className='min-w-unset sm:min-w-[200px] md:min-w-[220px] lg:min-w-[233px] text-center text-[18px] lg:text-2xl bg-bblue rounded-2xl px-3 py-3 md:px-8'>
+                    Sept - Dec 2022
+                  </p>
+                  <p className='min-w-unset sm:min-w-[210px] text-center text-[18px] lg:text-2xl  rounded-2xl px-3 py-3 md:px-8'>
+                    IDS Logic
+                  </p>
                 </div>
               </div>
             </div>
 
             <div className='flex flex-col sm:flex-row mb-2 mt-6'>
-              <div className='w-full font-inter font-800 text-3xl mb-8 sm:w-full md:w-1/3 '>
-                Android Engineer
+              <div className=' font-inter font-600 text-[28px] md:text-[36px] mb-8 w-full md:w-1/2 '>
+                Android Developer
               </div>
-              <div className='w-full sm:w-full md:w-1/2 flex-grow'>
-                <div className='flex items-center sm:flex-row gap-6 sm:justify-end'>
-                  <p className='text-base bg-bblue rounded-2xl px-3 py-3 md:px-8'>
-                    2023 - Present
+              <div className=' w-full md:w-1/2 flex-grow'>
+                <div className='flex '>
+                  <p className='min-w-unset sm:min-w-[200px] md:min-w-[220px] lg:min-w-[233px] text-center text-[18px] lg:text-2xl bg-bblue rounded-2xl px-3 py-3 md:px-8'>
+                    2021 - 2022
                   </p>
-                  <p className='text-base'>Jaguar LandRover</p>
+                  <p className=' min-w-unset sm:min-w-[210px] text-center text-[18px] lg:text-2xl  rounded-2xl px-3 py-3 md:px-8'>
+                    Freelancer
+                  </p>
                 </div>
               </div>
             </div>
