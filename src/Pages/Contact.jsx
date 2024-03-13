@@ -16,7 +16,7 @@ export default function Contact() {
             <p className="font-heading font-400 text-[13px] lg:text-[32px] md:text-[32px]  sm:text-[24px] text-black pl-1">
               akshitemail@mail.com
             </p>
-            <p className=" bg-[#D7D7D5] w-[98px] h-[98px] xsm:w-[120px] xsm:h-[120px] flex justify-center items-center rounded-full border-2 mix-blend-difference text-[#FDA5B1]  absolute right-[240px] xsm:right-[213px] md:right-[-46px] sm:right-[29px] xsm:right-[156px] xsm:top-[0px]">
+            <p className=" bg-[#D7D7D5] w-[98px] h-[98px] xsm:w-[120px] xsm:h-[120px] flex justify-center items-center rounded-full border-2 mix-blend-difference text-[#FDA5B1]  absolute right-[240px]  md:right-[-46px] sm:right-[29px] xsm:right-[156px] xsm:top-[0px]">
               <Link
                 to="mailto:akshit6302@gmail.com"
                 className="font-product font-400 text-white md:text-base sm:text-sm text-xs text-center"
