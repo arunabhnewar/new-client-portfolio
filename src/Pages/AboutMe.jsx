@@ -1,7 +1,16 @@
+/**
+ * AboutMe component for displaying information about the author.
+ * @module AboutMe
+ * @returns {JSX.Element} AboutMe component JSX
+ */
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorMid from "../assets/images/authorMid.webp";
 
+/**
+ * AboutMe component function
+ * @returns {JSX.Element} JSX for AboutMe component
+ */
 export default function AboutMe() {
   return (
     <>

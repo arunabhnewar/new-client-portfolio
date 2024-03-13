@@ -1,7 +1,17 @@
+/**
+ * SecondHeader component for displaying a secondary header.
+ * @module SecondHeader
+ * @returns {JSX.Element} SecondHeader component JSX
+ */
+
 import { Link } from "react-router-dom";
 import email from "../../../assets/icons/email.svg";
 import plus from "../../../assets/icons/plus.svg";
 
+/**
+ * SecondHeader component function
+ * @returns {JSX.Element} JSX for SecondHeader component
+ */
 export default function SecondHeader() {
   return (
     <>

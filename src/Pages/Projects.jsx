@@ -2,13 +2,15 @@ import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorMid from "../assets/images/authorMid.webp";
 import projectIcon from "../assets/images/projecticon1.png";
+
 export default function Projects() {
   return (
     <div className='overflow-hidden'>
       <PageTitle title='Project' />
       <div className='bg-white w-full min-h-[100vh] fade-in'>
         <div className='container max-w-1000 w-full mx-auto mt-[76px] px-4'>
-          <h1 className='text-6xl uppercase  sm:text-9xl md:text-[200px] lg:text-[210px]  text-green font-antonio font-700	tracking-wide sm:tracking-[12px]  md:tracking-[20px] md:tracking-[24px] lg:tracking-[48px] text-center'>
+          {/* Project Page Hero section start  */}
+          <h1 className='text-6xl uppercase  sm:text-9xl md:text-[200px] lg:text-[210px]  text-green font-antonio font-700	tracking-wide sm:tracking-[12px]   md:tracking-[20px] lg:tracking-[48px] text-center'>
             Android
           </h1>
           <div>
@@ -18,12 +20,14 @@ export default function Projects() {
             <h1 className='mt-[-65px] sm:mt-[-100px] md:mt-[-170px] lg:mt-[-215px] text-6xl sm:text-9xl md:text-[220px]  text-center text-green font-bebas font-400	tracking-wide sm:tracking-[8px] md:tracking-[10px] lg:tracking-[38px] '>
               ENGINEER
             </h1>
-            <p className='font-inter text-xs w-[222px]  m-auto sm:w-[467px]  md:w-[667px] lg:w-full pt-4  md:text-2xl '>
+            <p className='font-inter text-xs w-[222px]  m-auto sm:w-[467px]  md:w-[667px] lg:w-full pt-4  md:text-xl tracking-tighter'>
               Nice to see you here! I am another
               <br /> android engineer Based Manchester, UK.
             </p>
           </div>
-          {/* project sction start */}
+          {/* Project Page Hero section end  */}
+
+          {/* projects section text content start */}
           <div className='mt-14'>
             <h2 className='font-product font-500 text-6xl md:text-[150px] '>
               Projects
@@ -33,7 +37,10 @@ export default function Projects() {
               projects I have worked on across different industries.{" "}
             </p>
           </div>
+          {/* projects section text content  end */}
         </div>
+
+        {/* Projects section start */}
         <div className='bg-[#000] py-10'>
           <div className='container max-w-1000 w-full mx-auto  px-4'>
             <div className='grid grid-cols-12 gap-5'>
@@ -90,6 +97,7 @@ export default function Projects() {
             {/* project sction end */}
           </div>
         </div>
+        {/* Projects section end */}
       </div>
 
       <Footer />

@@ -1,5 +1,14 @@
+/**
+ * HomeFooter component for displaying contact information and social media links on the home page.
+ * @module HomeFooter
+ * @returns {JSX.Element} HomeFooter component JSX
+ */
 import { Link } from "react-router-dom";
 
+/**
+ * HomeFooter component function
+ * @returns {JSX.Element} JSX for HomeFooter component
+ */
 export default function HomeFooter() {
   return (
     <>

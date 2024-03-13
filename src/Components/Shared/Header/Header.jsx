@@ -1,8 +1,17 @@
+/**
+ * Header component for displaying the header of the website.
+ * @module Header
+ * @returns {JSX.Element} Header component JSX
+ */
 import { Link } from "react-router-dom";
 import arrow from "../../../assets/icons/arrow.svg";
 import menuImg from "../../../assets/icons/menu.svg";
 import logo from "../../../assets/images/logo.webp";
 
+/**
+ * Header component function
+ * @returns {JSX.Element} JSX for Header component
+ */
 export default function Header() {
   return (
     <>

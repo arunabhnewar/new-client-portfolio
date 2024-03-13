@@ -1,6 +1,15 @@
+/**
+ * Footer component for displaying contact information and social media links.
+ * @module Footer
+ * @returns {JSX.Element} Footer component JSX
+ */
 import { Link, useLocation } from "react-router-dom";
 import bigArrow from "../../../assets/icons/bigArrow.svg";
 
+/**
+ * Footer component function
+ * @returns {JSX.Element} JSX for Footer component
+ */
 export default function Footer() {
   const location = useLocation();
   const currentPage = location.pathname;

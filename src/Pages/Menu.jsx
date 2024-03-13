@@ -1,6 +1,15 @@
+/**
+ * Menu component for displaying menu options.
+ * @module Menu
+ * @returns {JSX.Element} Menu component JSX
+ */
 import { Link } from "react-router-dom";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 
+/**
+ * Menu component function
+ * @returns {JSX.Element} JSX for Menu component
+ */
 export default function Menu() {
   return (
     <>
