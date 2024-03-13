@@ -32,7 +32,7 @@ export default function Projects() {
             <h2 className='font-product font-500 text-6xl md:text-[150px] '>
               Projects
             </h2>
-            <p className='font-product font-300 text-2xl pt-6 pb-10'>
+            <p className='font-product font-300 text-2xl md:text-3xl pt-6 pb-10'>
               I am proud to present my portfolio that showcases a wide range of
               projects I have worked on across different industries.{" "}
             </p>
