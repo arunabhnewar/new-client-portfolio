@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import arrowBlack from "../../../assets/icons/arrow2.svg";
-import closeImg from "../../../assets/icons/close.svg";
+// import closeImg from "../../../assets/icons/close.svg";
 import logo from "../../../assets/images/logo.webp";
 
 export default function MenuHeader() {
@@ -19,12 +19,13 @@ export default function MenuHeader() {
 
           {/* Header mid content start */}
           <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center '>
-            <Link to='/'>
-              <img
+            <Link to='/' className='font-inter font-700 text-4xl text-white'>
+              {/* <img
                 src={closeImg}
                 alt='close'
                 className='cursor-pointer w-[40px] h-[40px] '
-              />
+              /> */}
+              HOME
             </Link>
           </nav>
           {/* Header mid content end */}

@@ -17,7 +17,7 @@ export default function Footer() {
         <div className='container max-w-1000 w-full mx-auto mt-[250px] px-6'>
           <Link to='mailto:akshit6302@gmail.com'>
             <p className='font-400 font-product leading-8 text-base lg:text-2xl md:text-xl tracking-wide text-green  '>
-              akshitemail@mail.com
+              akshit6302@gmail.com
             </p>
           </Link>
 
