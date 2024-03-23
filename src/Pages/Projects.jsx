@@ -5,7 +5,7 @@
  */
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
-import authorMid from "../assets/images/authorMid.webp";
+import authorMid from "../assets/images/new-user.png";
 import projectIcon from "../assets/images/projecticon1.png";
 
 /**
@@ -29,7 +29,7 @@ export default function Projects() {
             <h1 className='mt-[-65px] sm:mt-[-100px] md:mt-[-170px] lg:mt-[-215px] text-6xl sm:text-9xl md:text-[220px]  text-center text-green font-bebas font-400	tracking-wide sm:tracking-[8px] md:tracking-[10px] lg:tracking-[38px] '>
               Designer
             </h1>
-            <p className='font-inter text-xs w-[222px]  m-auto sm:w-[467px]  md:w-[667px] lg:w-full pt-4  md:text-xl tracking-tighter'>
+            <p className='font-inter text-xs w-[222px]  m-auto sm:w-[467px]  md:w-[667px] lg:w-full pt-4  md:text-xl tracking-tighter lg:pl-9 md:pl-0 sm:pl-4 pl-0 '>
               Nice to see you here! I am another
               <br /> graphics designer Based Bangladesh.
             </p>
