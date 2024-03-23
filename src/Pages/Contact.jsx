@@ -6,7 +6,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
-import authorBig from "../assets/images/authorBig.webp";
+import authorBig from "../assets/images/user-new.png";
 
 /**
  * Contact component function
@@ -17,17 +17,17 @@ export default function Contact() {
     <>
       <PageTitle title='Contact' />
 
-      <div className='bg-white w-full  fade-in'>
+      <div className='bg-white w-full  fade-in overflow-x-hidden'>
         {/* Contact hero section start */}
 
-        <div className='container max-w-1000 w-full mx-auto mt-[160px] sm:mt-[210px] px-2 pb-20'>
+        <div className='container  max-w-1000 w-full mx-auto mt-[160px] sm:mt-[210px] px-2 pb-20'>
           <div className='relative w-[380px]'>
             <p className='font-helvetica font-400 text-[14px] lg:text-[32px] md:text-[34px]  sm:text-[24px] text-black pl-1'>
-              akshit6302@gmail.com
+              mailexample@mail.com
             </p>
             <p className=' bg-[#D7D7D5] w-[98px] h-[98px] xsm:w-[120px] xsm:h-[120px] flex justify-center items-center rounded-full border-2 mix-blend-difference text-[#FDA5B1]  absolute right-[240px]  md:right-[-46px] sm:right-[29px] xsm:right-[156px] xsm:top-[0px]'>
               <Link
-                to='mailto:akshit6302@gmail.com'
+                to=''
                 className='font-product font-400 text-white md:text-base sm:text-sm text-xs text-center'>
                 <span className='text-black mix-blend-passthrough'>
                   {" "}
@@ -38,7 +38,7 @@ export default function Contact() {
           </div>
           <div className='max-w-[1000px] h-[192px] w-full mt-[22px] '>
             <div className='flex justify-end'>
-              <div className='max-w-[130px] lg:max-w-[343px] md:max-w-[250px] sm:max-w-[150px] xsm:max-w-[140px] rotate-[10deg] mt-[-92px] sm:mt-[-103px] xsm:mt-[-70px] md:mt-[-164px] translate-x-[-76px] pl-[7px] sm:pl-0 '>
+              <div className='max-w-[130px] lg:max-w-[343px] md:max-w-[250px] sm:max-w-[150px] xsm:max-w-[140px] rotate-[10deg] mt-[-92px] sm:mt-[-103px] xsm:mt-[-70px] md:mt-[-164px] translate-x-[-76px] pl-[15px] sm:pl-0 '>
                 <img className='w-full' src={authorBig} alt='' />
               </div>
             </div>

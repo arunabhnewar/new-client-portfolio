@@ -19,7 +19,7 @@ export default function PageTitle({ title }) {
   return (
     <>
       <Helmet>
-        <title>{title} | Akshit Nahata</title>
+        <title>{title} | Portfolio</title>
       </Helmet>
     </>
   );

@@ -24,9 +24,9 @@ export default function Footer() {
       {/* Lets Talk section start */}
       {!isContactPage() && (
         <div className='container max-w-1000 w-full mx-auto mt-[250px] px-6'>
-          <Link to='mailto:akshit6302@gmail.com'>
+          <Link to=''>
             <p className='font-400 font-product leading-8 text-base lg:text-2xl md:text-xl tracking-wide text-green  '>
-              akshit6302@gmail.com
+              mailexample@mail.com
             </p>
           </Link>
 
@@ -48,33 +48,24 @@ export default function Footer() {
           {/* email content start */}
           <div className='font-helvetica font-400 text-lg leading-[21.47px] text-dark w-full '>
             <p>Hey get in touch</p>
-            <p>akshit6302@gmail.com</p>
+            <p>mailexample@mail.com</p>
           </div>
           {/* email content start */}
 
           {/* social media content start */}
           <div className='w-full pt-5 sm:pt-0'>
             <p className='font-700 font-helvetica text-lg leading-[21.47px] text-dark'>
-              <Link
-                to='https://www.instagram.com/ak__it/?hl=en'
-                target='_blank'
-                className='underline'>
+              <Link to='' target='_blank' className='underline'>
                 Instagram
               </Link>
               ,{" "}
-              <Link
-                to='https://www.linkedin.com/in/akshit-nahata-06948a13b/'
-                target='_blank'
-                className='underline'>
+              <Link to='' target='_blank' className='underline'>
                 LinkedIn
               </Link>
             </p>
 
             <p className='font-700 font-helvetica text-lg leading-[21.47px] text-dark'>
-              <Link
-                to='https://www.buymeacoffee.com/akshit6302'
-                target='_blank'
-                className='underline'>
+              <Link to='' target='_blank' className='underline'>
                 BuyCoffee
               </Link>
             </p>

@@ -24,13 +24,13 @@ export default function Home() {
           {/* banner top part for title start */}
           <div className='flex flex-nowrap items-center justify-center gap-3 px-4 pt-16 pb-10 sm:pt-16 sm:pb-12'>
             <h1 className='text-4xl font-inter font-900 text-black flex flex-col sm:flex-row sm:items-center sm:gap-3 sm:text-6xl md:text-7xl lg:text-8xl'>
-              <span>Akshit</span>
+              <span>Amitabh</span>
               {/* Large screen Sticker Image start*/}
               <span className='bg-[#C7C7C7] rounded-full'>
                 <img className='hidden sm:block' src={bannerImg} alt='' />
               </span>{" "}
               {/* Large screen Sticker Image end*/}
-              <span>Nahata</span>
+              <span>Newar</span>
             </h1>
 
             {/*mobile screen Sticker Image start*/}
@@ -45,7 +45,7 @@ export default function Home() {
           {/* banner bottm part start*/}
           <div className='p-4 bg-bblue rounded-2xl md:flex md:gap-6 md:py-10 xl:pl-10 xl:pr-5'>
             <h2 className='font-inter font-800 text-2xl text-green mb-8 md:text-7xl xl:7xl '>
-              Android Developer
+              Graphics Designer
             </h2>
             <p className='font-inter font-400 text-base text-black sm:text-xl md:text-2xl lg:text-3xl'>
               I create art that is both aesthetically pleasing and emotionally
@@ -115,30 +115,30 @@ export default function Home() {
 
             <div className='flex flex-col  sm:flex-row   border-b border-black'>
               <div className='w-full font-inter font-600 text-[28px] md:text-[36px] mb-8 sm:w-full md:w-1/2 '>
-                Android Engineer
+                Lorem Ipsum
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow mb-6'>
                 <div className='flex'>
                   <p className='min-w-unset sm:min-w-[200px] md:min-w-[220px] lg:min-w-[233px] text-center text-[18px] md:h-[54px] lg:text-2xl bg-bblue rounded-2xl px-3 py-3 md:px-8'>
-                    2023 - Present
+                    2024 - Present
                   </p>
                   <p className='min-w-unset sm:min-w-[210px] text-center text-[18px] lg:text-2xl  rounded-2xl px-3 py-3 md:px-8'>
-                    Jaguar LandRover
+                    Lorem Ipsum
                   </p>
                 </div>
               </div>
             </div>
             <div className='flex flex-col items-center sm:flex-row  border-b border-black mt-6'>
               <div className='w-full font-inter font-600 text-[28px] md:text-[36px] mb-8 sm:w-full md:w-1/2 '>
-                Contract Android Developer
+                Lorem Ipsum
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow mb-6'>
                 <div className='flex'>
                   <p className='min-w-unset sm:min-w-[200px] md:min-w-[220px] lg:min-w-[233px] text-center text-[18px] lg:text-2xl bg-bblue rounded-2xl px-3 py-3 md:px-8'>
-                    Sept - Dec 2022
+                    2022 - 2024
                   </p>
                   <p className='min-w-unset sm:min-w-[210px] text-center text-[18px] lg:text-2xl  rounded-2xl px-3 py-3 md:px-8'>
-                    IDS Logic
+                    Lorem Ipsum
                   </p>
                 </div>
               </div>
@@ -146,15 +146,15 @@ export default function Home() {
 
             <div className='flex flex-col sm:flex-row mb-2 mt-6'>
               <div className=' font-inter font-600 text-[28px] md:text-[36px] mb-8 w-full md:w-1/2 '>
-                Android Developer
+                Lorem Ipsum
               </div>
               <div className=' w-full md:w-1/2 flex-grow'>
                 <div className='flex '>
                   <p className='min-w-unset sm:min-w-[200px] md:min-w-[220px] lg:min-w-[233px] text-center text-[18px] lg:text-2xl bg-bblue rounded-2xl px-3 py-3 md:px-8'>
-                    2021 - 2022
+                    2018 - 2021
                   </p>
                   <p className=' min-w-unset sm:min-w-[210px] text-center text-[18px] lg:text-2xl  rounded-2xl px-3 py-3 md:px-8'>
-                    Freelancer
+                    Lorem Ipsum
                   </p>
                 </div>
               </div>

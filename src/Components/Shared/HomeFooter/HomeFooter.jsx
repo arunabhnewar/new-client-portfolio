@@ -21,9 +21,9 @@ export default function HomeFooter() {
             Let’s talk
           </h2>
 
-          <Link to='mailto:akshit6302@gmail.com'>
+          <Link to=''>
             <button className='bg-green text-white   rounded-full font-inter font-500  sm:text-lg text-base max-w-[247px] h-[67px] md:max-w-[331px] sm:w-[230px] w-full '>
-              akshit6302@gmail.com
+              mailexample@mail.com
             </button>
           </Link>
         </div>
@@ -36,14 +36,14 @@ export default function HomeFooter() {
           <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center sm:gap-x-5 gap-y-5 sm:gap-y-0 gap-x-0 '>
             <Link
               className='text-sm md:text-xl font-700 font-inter sm:text-base underline '
-              to='https://www.instagram.com/ak__it/?hl=en'
+              to=''
               target='_blank'>
               Instagram
             </Link>
 
             <Link
               className='text-sm md:text-xl font-700 font-inter sm:text-base underline '
-              to='https://www.linkedin.com/in/akshit-nahata-06948a13b/'
+              to=''
               target='_blank'>
               LinkedIn
             </Link>
@@ -51,7 +51,7 @@ export default function HomeFooter() {
             <Link
               className='text-sm md:text-xl font-700 font-inter sm:text-base underline '
               target='_blank'
-              to='https://www.buymeacoffee.com/akshit6302'>
+              to=''>
               {" "}
               Buy Coffee
             </Link>
@@ -62,7 +62,7 @@ export default function HomeFooter() {
               Designed by
               <Link target='_blank' to='https://www.figma.com/@ericandtheweb'>
                 {" "}
-                ericandtheweb
+                @ ericandtheweb
               </Link>
             </p>
           </div>
