@@ -27,7 +27,7 @@ export default function AboutMe() {
             <div className='flex flex-row  items-end mt-[16px] gap-x-2 sm:gap-x-4 md:gap-x-6 lg:gap-x-8'>
               <div className='basis-2/4  sm:basis-4/6 text-right'>
                 <h3 className='uppercase font-heading font-700 text-2xl sm:text-4xl lg:text-6xl md:text-5xl text-green'>
-                  I’m an <br /> Graphics <br /> Designer{" "}
+                  I’m a <br /> Graphics <br /> Designer{" "}
                 </h3>
               </div>
               <div className='basis-2/4 sm:basis-2/6 w-[200px] md:w-[246px]   ml-auto '>
